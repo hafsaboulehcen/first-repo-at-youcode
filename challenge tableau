@@ -140,3 +140,29 @@ int main() {
     return 0;
 }
 
+
+
+//challenge 13 (tableau)
+
+#include <stdio.h>
+int main() {
+    int n,i;
+    printf("entrez le nombre des elements du tableau:");
+    scanf("%d",&n);
+    int T[n];
+    printf("entrez les elements du tableau:");
+
+    for(i=0;i<n;i++){
+        scanf("%d",&T[i]);
+    }
+    
+    printf("les elements ipmairs sont:");
+    for(i=0;i<n;i++){
+        if(T[i] % 2 !=0)
+         printf("%d",T[i]);
+
+    }
+    
+    
+    return 0;
+}
