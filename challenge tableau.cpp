@@ -18,10 +18,10 @@ int main() {
 #include <stdio.h>
 
    int main() {
-   int tableau[n];
    int n, i;
     printf("Entrez le nombre d'elements: ");
     scanf("%d", &n);
+    int tableau[n];
     printf("Entrez les elements du tableau:\n");
     for (i = 0; i < n; i++) {
         scanf("%d", &tableau[i]);
@@ -68,10 +68,10 @@ int main() {
 #include <stdio.h>
 
 int main() {
-    int tableau[n];
     int n, i, max;
     printf("Entrez le nombre d'elements: ");
     scanf("%d", &n);
+    int tableau[n];
     printf("Entrez les elements du tableau:\n");
     for (i = 0; i < n; i++) {
         scanf("%d", &tableau[i]);
@@ -92,10 +92,10 @@ int main() {
 #include <stdio.h>
 
 int main() {
-   int tableau[n];
    int n, i, min;
     printf("Entrez le nombre d'elements: ");
     scanf("%d", &n);
+    int tableau[n];
     printf("Entrez les elements du tableau:\n");
     for (i = 0; i < n; i++) {
         scanf("%d", &tableau[i]);
