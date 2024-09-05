@@ -1,4 +1,4 @@
-challenge 1
+//challenge 1
 
 
 #include <stdio.h>
@@ -15,7 +15,7 @@ int main() {
 }
 
 
-challenge 2
+//challenge 2
 
 
 #include <stdio.h>
@@ -37,8 +37,41 @@ int main() {
 }
 
 
+//challenge 3
 
-challenge 4
+
+#include <stdio.h>
+int i;
+int est_premier(int nbr) {
+    if (nbr <= 1) {
+        return 0;
+    }
+    for ( i = 2; i * i <= nbr; i++) {
+        if (nbr % i == 0) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+int main() {
+    int n;
+    printf("Entrez un entier n : ");
+    scanf("%d", &n);
+    printf("Les nombres premiers entre 1 et %d sont :\n", n);
+    for (i = 2; i <= n; i++) {
+        if (est_premier(i)) {
+            printf("%d ", i);
+        }
+    }
+    
+    printf("\n");
+    return 0;
+}
+
+
+
+//challenge 4
 
 
 #include <stdio.h>
@@ -59,7 +92,7 @@ int main() {
 
 
 
-chanllenge 5
+//chanllenge 5
 
 
 #include <stdio.h>
@@ -76,7 +109,7 @@ int main() {
 }
 
 
-challenge 6
+//challenge 6
 
 
 #include <stdio.h>
