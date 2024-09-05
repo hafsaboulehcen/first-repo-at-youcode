@@ -1,4 +1,4 @@
-challenge 1
+//challenge 1
 
 
 #include <stdio.h>
@@ -15,7 +15,7 @@ int main() {
 }
 
 
-challenge 2
+//challenge 2
 
 
 #include <stdio.h>
@@ -38,7 +38,7 @@ int main() {
 
 
 
-challenge 4
+//challenge 4
 
 
 #include <stdio.h>
@@ -59,7 +59,7 @@ int main() {
 
 
 
-chanllenge 5
+//chanllenge 5
 
 
 #include <stdio.h>
@@ -76,7 +76,7 @@ int main() {
 }
 
 
-challenge 6
+//challenge 6
 
 
 #include <stdio.h>
