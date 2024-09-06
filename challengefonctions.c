@@ -92,6 +92,68 @@ int main() {
 }
 
 
+
+//challenge 5
+
+
+#include <stdio.h>
+
+int factorielle (int n, int P){
+int i;
+P=1;
+for(i=1;i<n;i++)
+P*=i;
+
+return 0;
+}
+
+int main() {
+
+int n,P;
+printf("Entrez un entier positif : ");
+scanf("%d", &n);
+if (n < 0) {
+printf("Erreur Veuillez entrer un entier positif .\n");
+} else {
+printf("La factorielle de %d est: %d\n", n, factorielle(n,P));
+}
+
+return 0;
+
+}
+
+
+
+//challenge 7
+
+
+
+#include <stdio.h>
+#include <string.h>
+
+void inverse_chaine (char chaine[] , char rever[]){
+int longueur = strlen(chaine);
+int i;
+   for (i = 0; i < longueur; i++){
+    rever [i] = chaine [longueur - i -1 ];
+    //chaine [longueur - 1] = inv;
+  }   
+}
+int main() {
+
+char chaine[40];
+char rever[40];
+printf("entrez une chaîne de caractères: ");
+scanf("%s",&chaine);
+inverse_chaine (chaine ,rever);
+printf("La chaîne inversée est :%s\n",rever);
+
+return 0;
+
+}
+
+
+
 //challenge 8
 
 
