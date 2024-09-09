@@ -136,7 +136,6 @@ int longueur = strlen(chaine);
 int i;
    for (i = 0; i < longueur; i++){
     rever [i] = chaine [longueur - i -1 ];
-    //chaine [longueur - 1] = inv;
   }   
 }
 int main() {
