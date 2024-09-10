@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 int main(){
     char chaine1[20],chaine2[20],chaine_concatene[40];
     int i=0;

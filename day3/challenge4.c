@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 int main(){
     char chaine1[20],chaine2[20];
     printf("entrer chaine 1:");
