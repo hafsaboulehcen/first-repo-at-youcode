@@ -3,7 +3,7 @@ int main(){
     char chaine[20],chaine_sans_espace[20];
     int j=0;
     printf("entrer une chaine:");
-    scanf("%[^\n]s",chaine);
+    scanf(" %[^\n]s",chaine);
     for ( int i = 0;chaine[i]!='\0'; i++)
     {
         if(chaine[i]!=' '){
