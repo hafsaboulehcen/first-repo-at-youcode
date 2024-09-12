@@ -211,7 +211,7 @@ void rechercher_etudiant_par_nom()
     }
     printf("Cet etudiant ne se trouve pas.\n");
 }
-void afficher_etudiant_par_departement(){
+void afficher_nombre_etudiants_par_departement(){
     char departement[30];
     printf("entrez le nom du departement: ");
     scanf("%s", &departement);
@@ -225,7 +225,6 @@ void afficher_etudiant_par_departement(){
             printf("Prenom : %s\n", etudiants[i].prenom);
             printf("Departement : %s\n", etudiants[i].departement);
             printf("Note generale : %.2f\n", etudiants[i].note_generale);
-            return;
         }
     }
     printf("cet etudiant n'existe pas dans le departement %s\n", departement);
@@ -242,7 +241,7 @@ void trier_etudiants(){
     printf("6_Quitter.\n");
     printf("entrez votre choix:");
     scanf("%d",&choix);
-    for (int i = 0; i < nbr_etudiants - 1; i++) {
+    /*for (int i = 0; i < nbr_etudiants - 1; i++) {
         for (int j = i + 1; j < nbr_etudiants; j++) {
             if (choix == 1 && strcmp(etudiants[i].nom,etudiants[j].nom) > 0) {
                 temp = etudiants[i];
@@ -267,7 +266,7 @@ void trier_etudiants(){
             }
         }
     }
-    printf("etudiants tries avec succes!\n");
+    printf("etudiants tries avec succes!\n");*/
 }              
 int main()
 {
@@ -343,7 +342,7 @@ int main()
                 afficher_nombre_total_etudiants();
                 break;
             case 2:
-                afficher_nombre_etudiants_par_departement();
+                afficher_etudiants_par_departement();
                 break;
             case 3:
                 afficher_etudiants_superieures_seuil();
@@ -369,7 +368,7 @@ int main()
                 rechercher_etudiant_par_nom();
                 break;
             case 2:
-                afficher_etudiant_par_departement();
+                afficher_nombre_etudiants_par_departement();
                 break;
             }
             break;
